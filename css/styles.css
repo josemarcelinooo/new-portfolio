@@ -3037,9 +3037,9 @@ textarea.form-control-lg {
 
 
 .btn-primary {
-  color: black;
-  background-color: #EAE3D2;
-  border-color: #EAE3D2;
+  color: white;
+  background-color: #1C3879;
+  border-color: #1C3879;
   border-radius: 15px;
 }
 .btn-primary:hover {
@@ -11775,13 +11775,12 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-color: #F9F5EB;
   background-repeat: no-repeat;
   background-position: center;
 }
 section#contact .section-heading {
-  color: #fff;
+  color: #212529;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
@@ -11838,4 +11837,20 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .foot {
   color: white;
+}
+
+#about {
+  background-color: #EAE3D2;
+}
+
+#clientslist {
+  background-color: #F9F5EB;
+}
+
+#page-top {
+  background-color: #F9F5EB;
+}
+
+#contentabout {
+  margin-top: 3rem;
 }
