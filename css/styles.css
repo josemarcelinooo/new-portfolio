@@ -11482,17 +11482,37 @@ header.masthead .masthead-heading {
 }
 
 #spin {
-  color: #F9F5EB;
+  color: white;
   font-size: 3rem;
 }
 #spin:after {
   content:"";
-  animation: spin 5s infinite;
+  animation: spin 3s infinite;
+  animation-duration: 15s;
 }
 @keyframes spin {
   0% { content:"Software Engineer";}
-  50% { content:"Web Developer";}
-  100% { content:"Content Writer";}
+  10% { content:"Web Developer";}
+  20% { content:"Content Writer";}
+  30% { content:"Software Engineer";}
+  40% { content:"Web Developer";}
+  50% { content:"Content Writer";}
+  60% { content:"Software Engineer";}
+  70% { content:"Web Developer";}
+  80% { content:"Content Writer";}
+  90% { content:"Software Engineer";}
+  100% { content:"Web Developer";}
+  110% { content:"Content Writer";}
+}
+
+@media (max-width: 380px) {
+  header.masthead .masthead-heading {
+    font-size: 2.5rem;
+  }
+
+  #spin {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 768px) {
