@@ -11463,7 +11463,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
   position: relative;
   height: 100vh;
 }
@@ -11728,6 +11728,12 @@ header.masthead .masthead-heading {
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
   margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  header.masthead {
+    background-attachment: scroll;
+  }
 }
 
 @media (min-width: 768px) {
