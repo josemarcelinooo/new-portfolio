@@ -11515,6 +11515,16 @@ header.masthead .masthead-heading {
   }
 }
 
+@media (min-width: 381px) and (max-width: 513px) {
+  header.masthead .masthead-heading {
+    font-size: 2.5rem;
+  }
+
+  #spin {
+    font-size: 2rem;
+  }
+}
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 17rem;
