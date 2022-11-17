@@ -11457,7 +11457,7 @@ header.masthead .container {
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
-  text-align: center;
+  text-align: -webkit-center;
   color: #fff;
   background-image: url("../assets/wallpaper.jpg");
   background-repeat: no-repeat;
