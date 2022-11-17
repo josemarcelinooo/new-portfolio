@@ -11481,6 +11481,20 @@ header.masthead .masthead-heading {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+#spin {
+  color: #F9F5EB;
+  font-size: 3rem;
+}
+#spin:after {
+  content:"";
+  animation: spin 5s infinite;
+}
+@keyframes spin {
+  0% { content:"Software Engineer";}
+  50% { content:"Web Developer";}
+  100% { content:"Content Writer";}
+}
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 17rem;
