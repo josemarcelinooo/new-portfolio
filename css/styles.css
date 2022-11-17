@@ -11508,6 +11508,7 @@ header.masthead .masthead-heading {
 @media (max-width: 380px) {
   header.masthead .masthead-heading {
     font-size: 2.5rem;
+    margin-bottom: 1rem;
   }
 
   #spin {
@@ -11518,11 +11519,14 @@ header.masthead .masthead-heading {
 @media (min-width: 381px) and (max-width: 513px) {
   header.masthead .masthead-heading {
     font-size: 2.5rem;
+    margin-bottom: 1rem;
   }
 
   #spin {
     font-size: 2rem;
   }
+
+
 }
 
 @media (min-width: 768px) {
