@@ -11921,3 +11921,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 #contentabout {
   margin-top: 3rem;
 }
+
+#centerdiv {
+  justify-content: center;
+}
