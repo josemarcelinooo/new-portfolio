@@ -11307,6 +11307,7 @@ html {
 #ltlogo {
   width: 10rem;
   height: 10rem;
+  object-fit: contain;
 }
 
 #iconssm {
@@ -11490,8 +11491,8 @@ header.masthead .masthead-heading {
   animation: spin 3s infinite;
   animation-duration: 15s;
 }
-@keyframes spin {
-  0% { content:"Software Engineer";}
+/* @keyframes spin {
+  0% { content:"Full Stack Developer";}
   10% { content:"Web Developer";}
   20% { content:"Content Writer";}
   30% { content:"Software Engineer";}
@@ -11503,7 +11504,7 @@ header.masthead .masthead-heading {
   90% { content:"Software Engineer";}
   100% { content:"Web Developer";}
   110% { content:"Content Writer";}
-}
+} */
 
 @media (max-width: 380px) {
   header.masthead .masthead-heading {
